@@ -37,6 +37,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:backgroundTint="@color/black"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             app:cardUseCompatPadding="true">
@@ -48,10 +49,17 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/multimediamenu"
+                    />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MULTIMEDIA"
+                    android:text="@string/cardmultimedia"
+                    android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -59,6 +67,7 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardv2"
+            android:backgroundTint="@color/black"
             android:layout_width="143dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -77,16 +86,24 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/historiamenu"
+                    />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="QUE ES MONGUI"
+                    android:text="@string/cardinfo"
+                    android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:backgroundTint="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -105,17 +122,24 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/comidasmenu"
+                    />
 
                 <TextView
+                    android:textColor="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="COMIDAS TIPICAS"
+                    android:text="@string/cardcomidas"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:backgroundTint="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -135,14 +159,16 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/ciclismomenu"
                     />
 
                 <TextView
+                    android:textColor="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ACTIVIDADES"
+                    android:text="@string/cardactividades"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>

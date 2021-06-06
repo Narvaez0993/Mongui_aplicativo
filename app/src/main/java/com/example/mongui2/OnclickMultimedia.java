@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 public class OnclickMultimedia extends AppCompatActivity {
 
     TextView titulo,descripcion;
@@ -20,8 +22,7 @@ public class OnclickMultimedia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onclick_multimedia);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         titulo= findViewById(R.id.TituloMultimedia);
         descripcion = findViewById(R.id.DescripcionMultimedia);
@@ -31,7 +32,12 @@ public class OnclickMultimedia extends AppCompatActivity {
 
         titulo.setText(lugar.getTituloportada());
         descripcion.setText(lugar.getDescripcionportada());
-        fotolugar.setImageResource(lugar.getFotoportada());
+        //fotolugar.setImageResource(Integer.parseInt(lugar.getFotourl().toString()));
+
+         Picasso.with(fotolugar.getContext())
+                 .load(lugar.getFotourl())
+                 .into(fotolugar);
+
 
 
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Mongui2</string>
+    //opciones de menu actionbar
+    <string name="opcion1">About</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">Spanish</string>
+
+    //datos del perfil (menu actionbar)
+    <string name="nombreperfil">Sebastian Mejia Narvaez</string>
+    <string name="Descripcionperfil">My name is Sebastian Mejia Narvaez, high school graduate 2021, cesde student in software development, on the way to study systems engineering, I am active, very responsible and with an immense desire to know this world in all its splendor, addicted to music and just with the right.</string>
+
+    // Activity menu principal
+    <string name="cardmultimedia">MULTIMEDIA</string>
+    <string name="cardinfo">HISTORY</string>
+    <string name="cardcomidas">TYPICAL FOODS</string>
+    <string name="cardactividades">ACTIVITIES</string>
+
+
+    //datos de historia {
+
+    <string name="cardhistoriadesc">Monguí is a Colombian municipality located in the province of Sugamuxi in the department of Boyacá.it is located about 97 km from the city of Tunja, capital of the department. It is part of the Network of heritage towns of Colombia.The municipality is bordered to the north by Tópaga and Gámeza, to the east by Mongua and to the south and west by Sogamoso.</string>
+    <string name="cardhistoriadesc2">Monguí has been highlighted as the most beautiful town in Boyacá and Colombia, a small South American Escorial, cradle of the community action boards.</string>
+
+    //}
+</resources>

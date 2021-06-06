@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 public class AdaptadorMultimedia extends RecyclerView.Adapter<AdaptadorMultimedia.viewHolder> {
@@ -62,7 +64,10 @@ public class AdaptadorMultimedia extends RecyclerView.Adapter<AdaptadorMultimedi
 
              adapTitulo.setText(Dato.getTituloportada());
              adapDescripcion.setText(Dato.getDescripcionportada());
-             adapImg.setImageResource(Dato.getFotoportada());
+
+            Picasso.with(itemView.getContext())
+                    .load(Dato.getFotourl())
+                    .into(adapImg);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

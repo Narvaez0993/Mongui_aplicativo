@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Mongui2</string>
+    //opciones de menu actionbar
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Inglés</string>
+    <string name="opcion3">Español</string>
+
+    //datos del perfil (menu actionbar)
+    <string name="nombreperfil">Sebastian Mejia Narvaez</string>
+    <string name="Descripcionperfil">Mi nombre es Sebastian Mejia Narvaez, gradudado de bachiller 2021, estudiante del cesde en desarrollo de software, encaminado a estudiar ingenieria en sistemas, soy activo, muy responsable y con unas ganas inmensas de poder conocer este mundo en todo su esplendor, adicto a la musica y justo con lo justo.</string>
+
+    // Activity menu principal
+    <string name="cardmultimedia">MULTIMEDIA</string>
+    <string name="cardinfo">HISTORIA</string>
+    <string name="cardcomidas">COMIDAS TIPICAS</string>
+    <string name="cardactividades">ACTIVIDADES</string>
+
+    //datos de historia
+    <string name="cardhistoriadesc">Monguí es un municipio colombiano ubicado en la provincia de Sugamuxi en el departamento de Boyacá.Está situado a unos 97 km de la ciudad de Tunja, capital del departamento. Hace parte de la Red de pueblos patrimonio de Colombia.El municipio limita al norte con Tópaga y Gámeza, al oriente con Mongua y al sur y al occidente con Sogamoso.</string>
+    <string name="cardhistoriadesc2">Monguí ha sido resaltado como el pueblo más lindo de Boyacá y de Colombia, pequeño Escorial suramericano, cuna de las juntas de acción comunal.</string>
+
+    //}
+
+
+
 </resources>

@@ -4,13 +4,12 @@ import java.io.Serializable;
 
 public class Multimedialugar implements Serializable {
 
-    String tituloportada,descripcionportada;
-    int fotoportada;
+    String tituloportada,descripcionportada,fotourl;
 
-    public Multimedialugar(String tituloportada, String descripcionportada, int fotoportada) {
+    public Multimedialugar(String tituloportada, String descripcionportada, String fotourl) {
         this.tituloportada = tituloportada;
         this.descripcionportada = descripcionportada;
-        this.fotoportada = fotoportada;
+        this.fotourl = fotourl;
     }
 
     public String getTituloportada() {
@@ -29,11 +28,11 @@ public class Multimedialugar implements Serializable {
         this.descripcionportada = descripcionportada;
     }
 
-    public int getFotoportada() {
-        return fotoportada;
+    public String getFotourl() {
+        return fotourl;
     }
 
-    public void setFotoportada(int fotoportada) {
-        this.fotoportada = fotoportada;
+    public void setFotourl(String fotourl) {
+        this.fotourl = fotourl;
     }
 }

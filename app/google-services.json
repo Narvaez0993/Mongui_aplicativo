@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302292279979",
+    "project_id": "mongui-f397b",
+    "storage_bucket": "mongui-f397b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302292279979:android:a066a865143730235a8dee",
+        "android_client_info": {
+          "package_name": "com.example.mongui2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302292279979-fhfghf5u9jdm1dghc8h1u1srahu8n0nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQV6INFi_mo9SUS38QxYMYIEsn6U7VloA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302292279979-fhfghf5u9jdm1dghc8h1u1srahu8n0nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
